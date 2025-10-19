@@ -1,0 +1,1 @@
+Maestro Jose Nava le cedo todos los derechos de mi código para hacer un  uso responsable del mismo. Considero que me debería de evaluar con un  95 como  calificación ya que estoy en proceso de convertirme en un gran programador, aun con las falencias habidas y por haber… Y  mil veces arriba el Atlas !!!!!.  
