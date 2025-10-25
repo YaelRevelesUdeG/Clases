@@ -7,29 +7,30 @@ selector = input("Do you want to continue? (yes/no): ").strip().lower()
 
 
 funcion_recursiva("yes")"""
-"""
+
+
 def cuenta_regresiva(n):
     if n <= 0:
         print("Despegue !")
     else:
         print(n)
         cuenta_regresiva(n-1)
-"""
 
 
 # Factorital
-"""
+
 def factotrial(n):
     if n == 0:
         return 1
     else:
         return n * factotrial(n-1)
 
+
 print(factotrial(5))
-"""
+
 
 # Suma de una lista
-"""
+
 lista_1 = [1, 2, 3, 4, 5, 6, 7]
 
 
@@ -44,6 +45,36 @@ def sumalista(lista):
 
 
 print(sumalista(lista_1))
-"""
+
 
 # Secuencia de Fibonacci
+
+inicio = [1, 1, 2]
+
+
+def fibonacci(lista, contador=0):
+    if contador > 10:
+        return lista
+    else:
+        n = len(lista) - 1
+        n2 = len(lista) - 2
+        n3 = lista[n] + lista[n2]
+        lista.append(n3)
+        fibonacci(lista, contador + 1)
+        return lista
+
+
+print(fibonacci(inicio))
+
+
+# El cuadrado de un numero
+
+
+def square(n):
+    if n == n**2:
+        return n
+    else:
+        return n * n
+
+
+print(square(2))
