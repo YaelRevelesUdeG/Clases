@@ -7,7 +7,7 @@ CarrerasCUGdl = {
     "IF101" : "Inteligencia financiera",
     "BM101" : "Tecnologías biomédicas"
 }
-
+print(type(CarrerasCUGdl))
 # Diccionario que contiene "todas" las materias
 MateriasGenerales = {
     "MT101" : "Matematicas I",
